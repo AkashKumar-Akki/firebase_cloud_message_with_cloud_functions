@@ -49,7 +49,7 @@ exports.send_order_notification = onDocumentCreated(
       const message = {
         token: adminDeviceToken,
         notification: {
-          title: "New Order Received!",
+          title: "New Order Received!!",
           body: "You have a new order to process.",
           click_action: "https://www.app.smart-server.in/admin",
         },
